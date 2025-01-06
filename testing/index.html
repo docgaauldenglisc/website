@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+body {
+    background-color: rgb(17, 17, 51);
+}
+a {
+    color: rgba(10, 50, 100, 0.9); 
+}
+
+.links {
+    h1 {
+        background: linear-gradient(90deg, red, purple);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    a {
+        color: purple;
+    }
+
+    background-color: rgba(5, 5, 25, 0.5); 
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    border-radius: 25px;
+    animation: fadein 5s;
+    position: absolute;
+    top: 37%;
+    left: 30%;
+}
+
+@keyframes fadein {
+    from {
+        transform: rotate(0deg);
+        transform: skew(500deg, 500deg);
+        top: 500%;
+        left:75%;
+        opacity: 0;
+    }
+    to {
+        transform: rotate(3600deg);
+        transform: skew(0deg, 0deg);
+        top: 37%;
+        left: 30%;
+        opacity: 1;
+    }
+}
+</style>
+
+</head>
+
+<body>
+    <a class="back" href="../index.html">Back to Index</a>
+    <div class="links">
+        <h1>FriCK!</h1>
+        <a href="./3js/index.html">THREE JAY ESS TESTER!!!!!! SHAPE DANSE!</a>
+    </div>
+</body>
+
+</html>
